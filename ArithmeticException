@@ -1,4 +1,4 @@
-public class Exception1 {
+public class ArithmeticException {
 
     public static void main(String[] args) {
         int b1 = 10;
