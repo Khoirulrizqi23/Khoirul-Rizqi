@@ -1,0 +1,14 @@
+public class Exception1 {
+
+    public static void main(String[] args) {
+        int b1 = 10;
+        int b2 = 0;
+
+        try {
+            int hasil = b1 / b2;
+            System.out.println("Hasil: " + hasil);
+        } catch (ArithmeticException e) {
+            System.out.println("Pembagian dengan 0 tidak boleh dilakukan");
+        }
+    }
+}
